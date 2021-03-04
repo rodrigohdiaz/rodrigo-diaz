@@ -14,7 +14,7 @@ const ListLink = props => (
 export default function Layout ({ children }) {
     return (
         <header>
-        <Navbar collapseOnSelect expand="sm">
+        <Navbar collapseOnSelect expand="lg" >
                 <ListLink to="/">
                         <img src={logo} alt="Logo" className="logo"/>
                 </ListLink>
@@ -29,6 +29,7 @@ export default function Layout ({ children }) {
                     </Nav>
                 </Navbar.Collapse>
         </Navbar>
+        {children}
         </header>
     )
 }

@@ -28,7 +28,7 @@ export default function Layout ({ children }) {
                   <a href="https://www.instagram.com/rodrigohdiaz/" target="_blank"><img src={insta} className="icon"></img></a>
                   <a href="mailto: rodrigohdiaz@gmail.com" target="_blank"><img src={mail} className="icon"></img></a>
                 </div>
+                {children}
         </Container>
-        
     )
 }

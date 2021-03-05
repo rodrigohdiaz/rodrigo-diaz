@@ -21,11 +21,11 @@ export default function Layout ({ children }) {
             <Navbar.Toggle aria-controls="navbarResponsive" />
                 <Navbar.Collapse id="navbarResponsive">
                     <Nav as="ul" className="ml-auto">
-                        <Nav.Item as="li" className="link" href="/">Home</Nav.Item>
-                        <Nav.Item as="li" className="link" href="#">About</Nav.Item>
-                        <Nav.Item as="li" className="link" href="#">Gallery</Nav.Item>
-                        <Nav.Item as="li" className="link" href="#">Projects</Nav.Item>
-                        <Nav.Item as="li" className="link" href="#">Contact</Nav.Item>
+                        <listLink as="li" className="link" activeClassName="active" href="/">Home</listLink>
+                        <listLink as="li" className="link" activeClassName="active" href="#">About</listLink>
+                        <listLink as="li" className="link" activeClassName="active" href="#">Gallery</listLink>
+                        <listLink as="li" className="link" activeClassName="active" href="#">Projects</listLink>
+                        <listLink as="li" className="link" activeClassName="active" href="#">Contact</listLink>
                     </Nav>
                 </Navbar.Collapse>
         </Navbar>
@@ -33,4 +33,4 @@ export default function Layout ({ children }) {
         </header>
     )
 }
-{/* <Link to="/page" className="nav-link" activeClassName="active" */}
+

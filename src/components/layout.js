@@ -1,9 +1,9 @@
 import React from "react"
 import { Link } from "gatsby"
-import "../styles/nav.scss"
+import "../styles/layout.scss"
 import "../styles/global.scss"
 import logo from "../images/logoR.png"
-import { Nav, Navbar, Toggle } from "react-bootstrap";
+import { Nav, Navbar } from "react-bootstrap";
 
 const ListLink = props => (
   <listLink style={{ Nav }}>
@@ -14,18 +14,18 @@ const ListLink = props => (
 export default function Layout ({ children }) {
     return (
         <header>
-        <Navbar collapseOnSelect expand="lg" >
-                <ListLink to="/">
+        <Navbar expand="md" >
+            <Navbar.Brand href="/">
                         <img src={logo} alt="Logo" className="logo"/>
-                </ListLink>
-            <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-                <Navbar.Collapse id="responsive-navbar-nav">
-                    <Nav className="mr-auto justify-content-end menuTop">
-                        <Nav.Link className="link" href="/">Home</Nav.Link>
-                        <Nav.Link className="link" href="#">About</Nav.Link>
-                        <Nav.Link className="link" href="#">Gallery</Nav.Link>
-                        <Nav.Link className="link" href="#">Projects</Nav.Link>
-                        <Nav.Link className="link" href="#">Contact</Nav.Link>
+            </Navbar.Brand>
+            <Navbar.Toggle aria-controls="navbarResponsive" />
+                <Navbar.Collapse id="navbarResponsive">
+                    <Nav as="ul" className="ml-auto">
+                        <Nav.Item as="li" className="link" href="/">Home</Nav.Item>
+                        <Nav.Item as="li" className="link" href="#">About</Nav.Item>
+                        <Nav.Item as="li" className="link" href="#">Gallery</Nav.Item>
+                        <Nav.Item as="li" className="link" href="#">Projects</Nav.Item>
+                        <Nav.Item as="li" className="link" href="#">Contact</Nav.Item>
                     </Nav>
                 </Navbar.Collapse>
         </Navbar>
@@ -33,4 +33,4 @@ export default function Layout ({ children }) {
         </header>
     )
 }
-
+{/* <Link to="/page" className="nav-link" activeClassName="active" */}

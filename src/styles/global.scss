@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&family=Shippori+Mincho:wght@400;500;600&display=swap');
-
+@import "~bootstrap/scss/bootstrap";
 
 // font variables
 $mincho: 'Shippori Mincho', serif;
@@ -27,3 +27,19 @@ h3 {
     position: relative;
     padding-top: 30px;
 }
+
+.icons {
+    background-color: #FFD700;
+    position: fixed;
+    bottom: 2rem;
+    width: 100%;
+    text-align: center;
+    height: 2.5rem;
+ }
+ 
+ .icon {
+     position: relative;
+     margin-top: 0.35rem;
+     margin-right: 1rem;
+     height: 1.7rem;
+ }

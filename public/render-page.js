@@ -16,6 +16,7 @@ exports.ssrComponents = {
   "component---cache-dev-404-page-js": preferDefault(__webpack_require__(/*! ./.cache/dev-404-page.js */ "./.cache/dev-404-page.js")),
   "component---src-pages-404-js": preferDefault(__webpack_require__(/*! ./src/pages/404.js */ "./src/pages/404.js")),
   "component---src-pages-about-js": preferDefault(__webpack_require__(/*! ./src/pages/about.js */ "./src/pages/about.js")),
+  "component---src-pages-gallery-js": preferDefault(__webpack_require__(/*! ./src/pages/gallery.js */ "./src/pages/gallery.js")),
   "component---src-pages-index-js": preferDefault(__webpack_require__(/*! ./src/pages/index.js */ "./src/pages/index.js"))
   }
 
@@ -4364,6 +4365,41 @@ function About() {
   }, "Rodrigo D\xEDaz"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
     className: "plainText center"
   }, "I am a full stack web developer with a background as an architect and draftsman. In moving to New Zealand I have gained experience in technical advisory roles within local government district planning, as well as freelance web development, hospitality and airline staffing.", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), "With strength in front end development, I enjoy working with customers developing websites and functional apps which deliver on their business needs and objectives. With my design background and prior experience in web development I have a keen eye for both aesthetics and functionality.", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), "Other people describe me as a perceptive, genuine and honest person who presents with clear and open communication, as someone who works with focus and deep attention to detail, as a capable independent worked and someone possesses a can do and willing attitude. In team projects I have been acknowledged as a stand out member, as someone who is calm and thinks well under pressure, and as a particularly supportive, helpful and caring person.", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), "Loyal and with a solid work ethic, I am methodical and enjoy solving problems, making things work and I derive energy from progressive achievements and moving projects forward, I have a tendency to tackle things head on and am willing in my approach to do whatever needs to be done. I am passionate about contributing to practical websites and application that are useful and beneficial to users, particular where these improve their lives. My current career interests are in progressing to lead a development team and longer term in product ownership. I would also like to develop more skills working with graphics, animation and robotics.")));
+}
+
+/***/ }),
+
+/***/ "./src/pages/gallery.js":
+/*!******************************!*\
+  !*** ./src/pages/gallery.js ***!
+  \******************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (/* binding */ Gallery)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _components_layout__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/layout */ "./src/components/layout.js");
+/* harmony import */ var _styles_gallery_scss__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../styles/gallery.scss */ "./src/styles/gallery.scss");
+/* harmony import */ var _styles_gallery_scss__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_styles_gallery_scss__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var react_bootstrap__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-bootstrap */ "./node_modules/react-bootstrap/esm/Container.js");
+
+
+
+
+function Gallery() {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_components_layout__WEBPACK_IMPORTED_MODULE_1__.default, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_3__.default, {
+    fluid: true
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h4", {
+    claasName: "text"
+  }, "Rodrigo D\xEDaz's photos"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h4", {
+    className: "text film"
+  }, "Film"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h4", {
+    className: "text digital"
+  }, "Digital")));
 }
 
 /***/ }),
@@ -11260,6 +11296,16 @@ function mitt(all                 ) {
 /*!*******************************!*\
   !*** ./src/styles/about.scss ***!
   \*******************************/
+/***/ (() => {
+
+
+
+/***/ }),
+
+/***/ "./src/styles/gallery.scss":
+/*!*********************************!*\
+  !*** ./src/styles/gallery.scss ***!
+  \*********************************/
 /***/ (() => {
 
 

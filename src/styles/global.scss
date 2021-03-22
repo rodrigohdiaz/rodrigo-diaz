@@ -14,19 +14,22 @@ body, html {
 
 h1 {
     font-family: $mincho;
-    // font-size: 7em;
     position: absolute;
     color: #FFD700;
-    top: 40%;
+    top: 40%; 
 }
-
 h3 {
     font-family: $mincho;
-    font-size: 5rem;
-    color: #FFD700;
+    font-size: 3rem;
     position: relative;
     padding-top: 30px;
 }
+h4 {
+    font-family: $mincho;
+    font-size: 2.5rem;
+    }
+
+
 
 .icons {
     background-color: #FFD700;

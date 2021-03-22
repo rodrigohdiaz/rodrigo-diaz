@@ -16,7 +16,14 @@ ul, li {
     font-family: $mincho;
     color: #000;
     }
+    a:hover{
+        border: 1px solid grey;
+        padding: 5px;
+        text-decoration: none;
+        color: grey;
+    }
 }
+
 
 .menuTop {
     display: inline-block;

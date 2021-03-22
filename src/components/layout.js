@@ -6,9 +6,9 @@ import logo from "../images/logoR.png"
 import { Nav, Navbar } from "react-bootstrap";
 
 const ListLink = props => (
-  <listLink style={{ Nav }}>
+  <ListLink style={{ Nav }}>
     <Link to={props.to}>{props.children}</Link>
-  </listLink>
+  </ListLink>
 )
 
 export default function Layout ({ children }) {
@@ -21,11 +21,11 @@ export default function Layout ({ children }) {
             <Navbar.Toggle aria-controls="navbarResponsive" />
                 <Navbar.Collapse id="navbarResponsive">
                     <Nav as="ul" className="ml-auto">
-                        <listLink as="li" className="link" activeClassName="active" href="/">Home</listLink>
-                        <listLink as="li" className="link" activeClassName="active" href="#">About</listLink>
-                        <listLink as="li" className="link" activeClassName="active" href="#">Gallery</listLink>
-                        <listLink as="li" className="link" activeClassName="active" href="#">Projects</listLink>
-                        <listLink as="li" className="link" activeClassName="active" href="#">Contact</listLink>
+                        <listLink as="li" className="link" activeClassName="active"><a href='/'>Home</a></listLink>
+                        <listLink as="li" className="link" activeClassName="active"><a href="/about/">About</a></listLink>
+                        <listLink as="li" className="link" activeClassName="active"><a href="/gallery/">Gallery</a></listLink>
+                        <listLink as="li" className="link" activeClassName="active"><a href="/projects/">Projects</a></listLink>
+                        <listLink as="li" className="link" activeClassName="active"><a href="/contact.">Contact</a></listLink>
                     </Nav>
                 </Navbar.Collapse>
         </Navbar>

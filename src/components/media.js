@@ -11,9 +11,9 @@ import insta from "../images/instagram.png"
 import mail from "../images/mail.png"
 
 const ListLink = props => (
-    <li style={{className:"nav"}}>
+    <ListLink style={{className:"nav"}}>
       <Link to={props.to}>{props.children}</Link>
-    </li>
+    </ListLink>
   )
 
 
@@ -24,6 +24,7 @@ export default function Layout ({ children }) {
                   <Nav.Item as="a" href="https://github.com/rodrigohdiaz" target="_blank"><img src={git} className="icon" alt="git"></img></Nav.Item>
                   <Nav.Item as="a" href="https://twitter.com/rodrigohdiaz" target="_blank"><img src={twit} className="icon" alt="twitter"></img></Nav.Item>
                   <Nav.Item as="a" href="https://www.linkedin.com/in/rodrigohdiaz/" target="_blank"><img src={linkedin} className="icon" alt="linkedin"></img></Nav.Item>
+                  <Nav.Item as="a" href="https://codepen.io/rodrigohdiaz" target="_blank"><img src={code} className="icon" alt="code"></img></Nav.Item>
                   <Nav.Item as="a" href="https://www.instagram.com/rodrigohdiaz/" target="_blank"><img src={insta} className="icon" alt="insta"></img></Nav.Item>
                   <Nav.Item as="a" href="mailto: rodrigohdiaz@gmail.com" target="_blank"><img src={mail} className="icon" alt="mail"></img></Nav.Item>
                 </Navbar>

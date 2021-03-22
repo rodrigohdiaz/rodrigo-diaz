@@ -9,6 +9,8 @@ export default function Gallery(){
             <Container fluid>
                 <h4 claasName="text">Rodrigo D&iacute;az's photos</h4>
                 < h4 className="text film">Film</h4>
+                    <p className="text">35mm</p>
+                    <p className="text">120mm</p>
                 < h4 className="text digital">Digital</h4>
             </Container>
         </Layout>

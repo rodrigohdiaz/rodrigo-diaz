@@ -4176,7 +4176,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _images_mail_png__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../images/mail.png */ "./src/images/mail.png");
 
 
- // import "../styles/global.scss"
 
 
 

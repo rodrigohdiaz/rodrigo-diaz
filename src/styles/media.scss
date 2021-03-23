@@ -3,14 +3,16 @@
     position: fixed;
     bottom: 2rem;
     width:100%;
-    float: center;
+    align-content: center;
     height: 2.5rem;
-    width: 100%;
+    display: block;
+    margin: 0 auto;
  }
  
  .icon {
      position: relative;    
-     margin-top: 0.35rem;
+     margin-top: 0;
      margin-right: 1rem;
      height: 1.7rem;
+     width: auto;
  }

@@ -1,7 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
 import "../styles/media.scss"
-import "../styles/global.scss"
 import { Navbar, Nav } from "react-bootstrap";
 import git from "../images/github.png"
 import code from "../images/codepen.png"

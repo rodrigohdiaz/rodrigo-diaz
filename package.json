@@ -12,7 +12,9 @@
         "start": "gatsby develop",
         "build": "gatsby build",
         "serve": "gatsby serve",
-        "clean": "gatsby clean"
+        "clean": "gatsby clean",
+        "cdev": "gatsby clean && gatsby develop",
+        "cbuild": "gatsby clean && gatsby build"
     },
     "license": "0BSD",
     "dependencies": {
